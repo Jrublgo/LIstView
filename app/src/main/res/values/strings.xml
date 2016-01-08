@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="nombre">Nombre</string>
+    <string name="name">NOMBRE</string>
+    <string name="borrar">Datos Borrados</string>
+    <string name="editar">Datos Editados</string>
+    <string name="guardar">Datos Guardados</string>
+    <string name="mgsborrar">¿Desea borrar este registro?</string>
+    <string name="ok">OK</string>
+
+    // Lista de String
+    <string-array name="nacionalidades">
+        // Ventaja puedes ponerlo según las nacionalidades que quieras poner
+        <item> España </item>
+        <item> Inglés </item>
+        <item>Portugal</item>
+        <item>Andorra</item>
+        // Mejor aquí que en el código.
+        // despues habria que usar getStringArray(R.Array.nacionalidades);
+    </string-array>
+
+</resources>
